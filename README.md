@@ -10,4 +10,4 @@ Yönetici fatura ve aidatlarının ödenip ödenmediğini görebilir.
 Yönetici ve site sakinleri program içerisinden mesajlaşabilir, gelen mesaj kutusunda okunmamış mesajların bold olarak gösterilir.
 Site sakinleri program içerisine kredi kart bilgilerini kaydederek fatura ve aidatlarını ödeyebilir.
 
-Projede .Net 5 MVC yapısı, MS SQL database'i kullanıldı.
+Projede .Net 5 MVC yapısı, MS SQL database'i ve Bootstrap template kullanıldı.
