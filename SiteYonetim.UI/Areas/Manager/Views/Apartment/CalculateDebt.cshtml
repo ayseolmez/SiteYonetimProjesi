@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "CalculateDebt";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int counter = 0;
+}
+
+<div class="pagetitle">
+    <h1 style="color: azure;">Yöneticiler Listesi</h1>
+</div><!-- End Page Title -->
+
+
+<div class="row">
+    <div class="col-lg-12">
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Yöneticiler</h5>
+
+                <!-- Table with stripped rows -->
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                           
+                            <th scope="col"> Ödeme Türü</th>
+                            <th scope="col"> Tutarı</th>
+                        </tr>
+                    </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Faturalar</td>
+                                <td>ViewBag.TotalBills</td>
+                            </tr>
+                        </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Aidatlar</td>
+                            <td>ViewBag.TotalDues</td>
+                        </tr>
+                    </tbody>
+                    
+
+                </table>
+                <!-- End Table with stripped rows -->
+                <a href="/Manager/Apartment/CreateManager/" class="btn btn-primary">PDF al</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
